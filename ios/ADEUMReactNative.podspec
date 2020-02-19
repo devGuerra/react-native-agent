@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = "Apache-2.0"
   s.author       = { "AppDynamics" => "info@appdynamics.com" }
   s.platform     = :ios, "7.0"
-  s.source       = "https://github.com/devGuerra/react-native-agent/ios"
+  s.source         = { :git => "https://github.com/devGuerra/react-native-agent/", :tag => "v#{s.version}" }
   s.source_files  = "ADEUMReactNative/**/*.{h,m}"
   # s.resources
   s.preserve_paths = "**/*.js"
