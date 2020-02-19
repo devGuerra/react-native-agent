@@ -9,14 +9,13 @@ Pod::Spec.new do |s|
   s.homepage     = "https://docs.appdynamics.com"
   s.license      = "Apache-2.0"
   s.author       = { "AppDynamics" => "info@appdynamics.com" }
-  s.platform     = :ios, "7.0"
+  s.ios.deployment_target = '9.0'
+  s.tvos.deployment_target = '9.0'
   s.source         = { :git => "https://github.com/devGuerra/react-native-agent/", :tag => "v#{s.version}" }
   s.source_files  = "ADEUMReactNative/**/*.{h,m}"
-  # s.resources
   s.static_framework = true
   s.preserve_paths = "**/*.js"
   s.dependency "React"
-  s.dependency "AppDynamicsAgent"
 
 end
 
