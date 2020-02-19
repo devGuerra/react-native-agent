@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.source         = { :git => "https://github.com/devGuerra/react-native-agent/", :tag => "v#{s.version}" }
   s.source_files  = "ADEUMReactNative/**/*.{h,m}"
   # s.resources
+  s.static_framework = true
   s.preserve_paths = "**/*.js"
   s.dependency "React"
   s.dependency "AppDynamicsAgent"
