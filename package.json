@@ -1,0 +1,60 @@
+{
+    "name": "@appdynamics/react-native-agent",
+    "version": "1.0.243",
+    "description": "Native instrumentation of iOS and android apps built with react-native.",
+    "main": "build/js/plugin/index.js",
+    "typings": "build/js/plugin/index.d.ts",
+    "license": "Apache-2.0",
+    "bin": {
+        "appd-react-native": "bin/cli.js"
+    },
+    "homepage": "https://github.com/appdynamics/react-native-agent",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/appdynamics/react-native-agent.git"
+    },
+    "bugs": {
+        "url": "https://github.com/appdynamics/react-native-agent/issues"
+    },
+    "keywords": [
+        "react-native",
+        "appdynamics",
+        "application monitoring"
+    ],
+    "files": [
+        "android/build.gradle",
+        "android/adeum.gradle",
+        "./docs",
+        "./bin",
+        "./android/src",
+        "./build/js",
+        "./build/iosagent",
+        "./ios",
+        "./LICENSE",
+        "./NOTICE.txt"
+    ],
+    "peerDependencies": {
+        "react-native": "0.57.3"
+    },
+    "dependencies": {
+        "tslib": "1.9.3"
+    },
+    "devDependencies": {
+        "@types/inquirer": "^0.0.43",
+        "@types/react-native": "^0.57.7",
+        "@types/shelljs": "^0.8.1",
+        "inquirer": "^6.2.1",
+        "madge": "^3.4.4",
+        "react-native": "0.57.7",
+        "shelljs": "^0.8.3",
+        "ts-node": "^7.0.1",
+        "tslint": "5.11.0",
+        "tslint-language-service": "0.9.9",
+        "typedoc": "^0.13.0",
+        "typescript": "3.1.3",
+        "typestrict": "1.0.1"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
